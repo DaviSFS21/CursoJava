@@ -9,9 +9,7 @@ public class ExercicioCondicional {
         int minutos = sc.nextInt();
 
         double conta = 50.0;
-        if (minutos > 100){
-            conta += (minutos - 100)*2;
-        }
+        conta += (minutos > 100) ? (minutos - 100)*2 : 0;
 
         System.out.printf("Sua dívida é de %.2f reais%n%n",conta);
 
