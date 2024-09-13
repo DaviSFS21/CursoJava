@@ -20,7 +20,7 @@ public class Vetor {
 
         double total = 0;
         for (int i = 0; i < n; i++) {
-            total = alturas[i];
+            total += alturas[i];
         }
         double avg = total / n;
 
